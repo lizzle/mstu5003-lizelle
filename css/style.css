@@ -1,0 +1,72 @@
+/*
+COLOR PALETTE
+White: #FFFFFF
+Light gray: #ECF0F0
+Dark gray: #444444
+Sunny yellow: #EED533
+Turquoise: #269C77
+*/
+
+html body {
+    color: #444444;
+}
+
+.jumbotron {
+    background-color: #EED533;
+    padding-bottom: 10px;
+}
+
+#question, #choice {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+#navMenu {
+    padding: 100px;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+h3 {
+    color: #EED533;
+}
+
+
+/* LINK STYLING */
+
+
+/* unvisited/visited link */
+
+a:link, a:visited {
+    color: #269C77;
+}
+
+
+/* mouse over link */
+
+a:hover {
+    color: #444444;
+}
+
+
+/* selected link */
+
+a:active {
+    color: #ECF0F0;
+}
+
+footer {
+    margin-top: 50px;
+    padding: 10px;
+    background-color: #EED533;
+}
+
+.randomfact {
+    background-color: #EED533;
+}
+
+.portfolioPic {
+    padding: 20px;
+}

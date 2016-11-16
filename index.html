@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<!-- Note: I'm adding a lot of comments because it helps me learn and also helps explain my rationale for certain design choices. I would probably not keep this much commentary in my code if this wasn't a student project. -->
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Font Awesome CSS for social icons in footer -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    <title>Lizelle Serrano</title>
+</head>
+
+<body>
+    <!-- JUMBOTRON -->
+    <div class="jumbotron">
+        <!-- Put the container inside jumbotron to add padding, but don't want container around the jumbotron because it won't extend to the edges -->
+        <div class="container">
+            <h1 class="display-3">Lizelle Serrano</h1>
+            <p class="lead">instructional design, content production &amp; educational technology</p>
+        </div>
+    </div>
+
+    <!-- ADD HAMBURGER MENU WITH LINKS TO SECTIONS/CONTACT? -->
+
+    <!-- QUESTION -->
+    <section id="navMenu">
+        <div class="container" id="question">
+            <div class="row">
+                <h1>What do you want to know?</h1>
+            </div>
+        </div>
+
+        <div class="container" id="choice">
+            <!-- JUMP TO PROFESSIONAL -->
+            <div class="col-md-4">
+                <a style="display:block" href="#professional">
+                    <div class="option">
+                        <i class="fa fa-book fa-5x" aria-hidden="true"></i>
+                        <h2>Stick to the facts</h2>
+                    </div>
+                </a>
+            </div>
+
+            <!-- JUMP TO PORTFOLIO -->
+            <div class="col-md-4">
+                <a style="display:block" href="#portfolio">
+                    <div class="option">
+                        <i class="fa fa-globe fa-5x" aria-hidden="true"></i>
+                        <h2>Let me explore</h2>
+
+                    </div>
+                </a>
+            </div>
+
+            <!-- JUMP TO PERSONAL -->
+            <div class="col-md-4">
+                <a style="display:block" href="#personal">
+                    <div class="option">
+                        <i class="fa fa-smile-o fa-5x" aria-hidden="true"></i>
+                        <h2>Surprise me</h2>
+
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- PROFESSIONAL -->
+    <section id="professional">
+        <div class="container">
+            <div class="row">
+                <h2>Professional Experience</h2>
+                <!-- BIO -->
+                <div class="col-md-9">
+                    <article id="bio">
+                        <p>I've always been interested in <strong>interdisciplinary education</strong>. As a child, I dreamed of a career that combined <strong>writing</strong> and <strong>art</strong>, and in the past few years, I've added <strong>education</strong>                            and <strong>technology</strong> to that list.</p>
+
+                        <p>I received my B.A. in English from <strong>UC Berkeley</strong>, where I assisted with research on computer-based formative assessment with the <strong>Graduate School of Education</strong>. Since then, I've worked with audiences
+                            ranging from K-8 students in low-income communities to executives at Fortune 500 companies.</p>
+
+                        <p>Currently, I'm finishing my Master's degree at <strong>Teachers College, Columbia University</strong>, where my interests include designing games, curriculum, EdTech tools and experiences.</p>
+                    </article>
+
+
+                    <!-- PRESENT -->
+                    <h3>Present</h3>
+                    <!-- Find a better way to display this info – tried a horizontal description list but it didn't work. Table? Also considered a timeline but it was too complicated for now. -->
+                    <ul>
+                        <li>
+                            <strong>M.A. Candidate, Instructional Technology and Media</strong>, Teachers College (TC), Columbia University [Expected 2017]
+                        </li>
+                        <li>
+                            <strong>Online Course Facilitator</strong>, Media Platforms and Content, Columbia Business School [Spring 2016-Present]
+                        </li>
+                        <li>
+                            <strong>Academic Tech Fellow</strong>, Arts &amp; Humanities, TC, Columbia University [Fall 2016-Present]
+                        </li>
+                        <li>
+                            <strong>Course Assistant</strong>, Video Games and Education, TC, Columbia University [Fall 2016-Present]
+                        </li>
+                    </ul>
+
+                    <!-- PAST -->
+                    <h3>Past</h3>
+                    <ul>
+                        <li>
+                            <strong>Instructional Designer</strong>, School of Professional Studies, New York University [May-September 2016]
+                        </li>
+                        <li>
+                            <strong>Research Assistant</strong>, Mindset Works and Games Research Lab, TC [2015-2016]
+                        </li>
+                        <li>
+                            <strong>Instructional Designer and Digital Media Manager</strong>, Worldview Stanford, Stanford University [2013-2015]
+                        </li>
+                        <li>
+                            <strong>Content Development Associate</strong>, MindSnacks [2012-2013]
+                        </li>
+                        <li>
+                            <strong>Teaching Fellow</strong>, United for Success Academy, Citizen Schools [2010-2012]
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- PHOTO -->
+                <div class="col-md-3">
+                    <img src="images/profilepic-small.jpg" alt="Black and white photo of Lizelle Serrano" class="img-rounded">
+                    <!-- LINKEDIN -->
+                    <!-- Now off-center under the image – need to fix -->
+                    <ul class="list-inline list-unstyled">
+                        <li>
+                            <a href="https://www.linkedin.com/in/lizelleserrano" target="_blank">
+                                <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <p class="h4">Connect on <a href="https://www.linkedin.com/in/lizelleserrano" target="_blank">LinkedIn</a></p>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- PORTFOLIO -->
+    <section id="portfolio">
+        <div class="container">
+            <h2>Portfolio</h2>
+            <h3><em>Coming soon</em></h3>
+            <p>For now, you can check out:</p>
+            <ul>
+                <li>
+                    <a href="https://lizelle.carbonmade.com/" target="_blank">Portfolio</a>
+                </li>
+                <li>
+                    <a href="https://lizelle.co/" target="_blank">Projects</a>
+                </li>
+                <li>
+                    <a href="http://buildinprogress.media.mit.edu/users/lizelle" target="_blank">Process</a>
+                </li>
+            </ul>
+
+            <!-- WILL ADD ACTUAL IMAGES AND LINKS IN THE FUTURE -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 portfolioPic">
+                        <a href="midterm/index.html">
+                            <img src="images/backfire.png" class="img-rounded center-block" alt="Snippet from a comic about confirmation bias.">
+                            <br>
+                            <!-- Temporary solution – fix the CSS styling for future projects -->
+                            <p class="text-center">Midterm: The Backfire Effect</p>
+                        </a>
+                    </div>
+                    <div class="col-md-4 portfolioPic"><img src="https://placehold.it/200x200" class="img-rounded  center-block" alt="This is a placeholder image."></div>
+                    <div class="col-md-4 portfolioPic"><img src="https://placehold.it/200x200" class="img-rounded  center-block" alt="This is a placeholder image."></div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 portfolioPic"><img src="https://placehold.it/200x200" class="img-rounded  center-block" alt="This is a placeholder image."></div>
+                    <div class="col-md-4 portfolioPic"><img src="https://placehold.it/200x200" class="img-rounded  center-block" alt="This is a placeholder image."></div>
+                    <div class="col-md-4 portfolioPic"><img src="https://placehold.it/200x200" class="img-rounded  center-block" alt="This is a placeholder image."></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PERSONAL -->
+    <section id="personal">
+        <div class="container">
+            <h2>Personal Information</h2>
+            <!-- When we get into JS, this will have a random generator. Right now, the button does nothing but acts as a placeholder -->
+            <div class="panel panel-default randomfact">
+                <div class="panel-body">
+                    <!-- Is there a better way to align icons than unstyled unordered lists? -->
+                    <ul class="list-inline list-unstyled">
+                        <li>
+                            <i class="fa fa-music fa-2x" aria-hidden="true"></i>
+                        </li>
+                        <li>
+                            <p class="h3">I love playing musical instruments</p>
+                        </li>
+                    </ul>
+                    <ul>
+                        <!-- Chose <b> tags because this text isn't necessarily important enough for <strong> but I'm not sure if this is correct. -->
+                        <li>My entire family plays the <b>piano</b> so I started learning when I was five years old.</li>
+                        <li>I switched to the <b>clarinet</b> and performed at <b>Carnegie Hall</b> in high school.</li>
+                        <li>At UC Berkeley, I took a class to play the <b>Sather Tower carillon</b> (bell tower).</li>
+                        <li>While working at a middle school in Oakland, I <b>co-taught a music/keyboard class</b>.</li>
+                        <li>I've tried to teach myself how to play the <b>guitar</b> several times, but it hasn't stuck.</li>
+                    </ul>
+                    <!-- In the future, this will lead to random facts about traveling, art, etc. -->
+                    <button class="btn btn-default" type="submit">Give me another fun fact</button></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT FORM -->
+    <section id="contact">
+
+        <div class="container">
+            <h2>Contact</h2>
+            <form>
+                <!-- NAME INPUT -->
+                <div class="form-group">
+                    <label for="exampleInputName1">Name</label>
+                    <input type="name" class="form-control" id="exampleInputName" placeholder="First and Last Name">
+                </div>
+                <!-- EMAIL INPUT -->
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail" placeholder="sender@example.com">
+                </div>
+                <!-- TEXT AREA -->
+                <div class="form-group">
+                    <label for="exampleInputMessage1">Message</label>
+                    <textarea class="form-control" rows="3" placeholder="Type your message here"></textarea>
+                </div>
+                <button type="submit" class="btn btn-default">Submit</button>
+            </form>
+        </div>
+    </section>
+
+
+    <footer>
+        <!-- SOCIAL LINKS -->
+        <div class="container pull-left">
+            <ul class="list-inline list-unstyled">
+                <li>
+                    <a href="https://www.linkedin.com/in/lizelleserrano" target="_blank">
+                        <i class="fa fa-linkedin fa-2x" aria-hidden="true"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/lizellemds" target="_blank">
+                        <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/lizellemds/" target="_blank">
+                        <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!-- BACK TO TOP – some responsiveness issues -->
+        <div class="container">
+            <p class="pull-right">
+                <a href="#" class="h4">Back to top</a>
+            </p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

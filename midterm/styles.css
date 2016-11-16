@@ -1,0 +1,51 @@
+/*
+COLOR PALETTE (modified Giallo Scuro on kuler):
+Dark gray: #333333
+Medium gray: #828282
+Light gray: #CCCCCC
+Light yellow: #FFD663
+Yellow: #D6A300
+*/
+
+
+/* Overriding Bootstrap's light gray color */
+
+.jumbotron {
+    background-color: white;
+    margin: 0;
+}
+
+body {
+    color: #333333;
+}
+
+#title {
+    color: #D6A300;
+}
+
+h2 {
+    /*text-align: center;*/
+    color: white;
+    background-color: #828282;
+    padding: 30px;
+}
+
+
+/* So image will resize */
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.definition {
+    font-size: 2em;
+    color: #D6A300;
+}
+
+footer {
+    color: white;
+    background-color: #333333;
+    padding-top: 30px;
+    margin-top: 30px;
+}
